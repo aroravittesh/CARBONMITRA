@@ -1,0 +1,22 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+
+.loader-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    transition: background-color 0.5s ease;
+  }
+  
+  
+  .loader-wrapper:hover {
+    background-color: black; /* Slightly darker on hover */
+  }
+  
